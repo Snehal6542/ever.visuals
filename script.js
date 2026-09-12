@@ -169,7 +169,7 @@
       );
     };
 
-    btn.addEventListener("click", () => {
+    const toggle = () => {
       if (!video.hasAttribute("src") || video.readyState < 1) {
         pulse();
         return;
@@ -181,8 +181,12 @@
         video.pause();
         btn.classList.remove("is-playing");
       }
-    });
+    };
 
-    video.addEventListener("click", (e) => e.stopPropagation());
+    btn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      toggle();
+    });
+    video.addEventListener("click", toggle);
   });
 })();

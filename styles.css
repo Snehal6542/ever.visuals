@@ -474,8 +474,7 @@ strong { font-weight: 600; }
 .reel__play svg { width: 22px; height: 22px; fill: currentColor; margin-left: 3px; }
 .reel__media:hover .reel__play { transform: translate(-50%, -50%) scale(1.12); }
 .reel__play:hover { background: #fff; }
-.reel__play.is-playing { background: var(--accent-deep); color: #fff; }
-.reel__play.is-playing svg { margin-left: 0; }
+.reel__play.is-playing { opacity: 0; pointer-events: none; }
 
 /* real video layer sits on top of ghost (see JS) */
 .reel__media video {
