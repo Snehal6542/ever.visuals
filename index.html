@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>_ever.visuals — Marketing That Moves</title>
+  <meta name="description" content="_ever.visuals is a full-service marketing agency crafting scroll-stopping reels, campaigns and brand stories." />
+  <link rel="icon" type="image/jpeg" href="logo.jpeg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ BRAND PRELOADER ============ -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__brand">
+      <span class="preloader__ribbon"></span>
+      <span class="preloader__word">_ever<span>.visuals</span></span>
+    </div>
+    <span class="preloader__bar"><i></i></span>
+  </div>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo">_ever<span>.visuals</span></a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#reels">Reels</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="nav__cta">Start a Project</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__grain" aria-hidden="true"></div>
+
+      <div class="hero__eyebrow reveal">★ Full-service marketing agency</div>
+
+      <h1 class="hero__title">
+        <span class="hero__line reveal">We craft</span>
+        <span class="hero__line hero__line--accent reveal">
+          <em>stories</em> that
+          <span class="hero__rotate" id="wordRotate">scroll</span>
+        </span>
+        <span class="hero__line reveal">stop—and sell.</span>
+      </h1>
+
+      <p class="hero__sub reveal">
+        From scroll-stopping reels to full-funnel campaigns, <strong>_ever.visuals</strong> turns
+        attention into revenue for brands that refuse to be ignored.
+      </p>
+
+      <div class="hero__actions reveal">
+        <a href="#contact" class="btn btn--dark">Get a free strategy call</a>
+        <a href="#reels" class="btn btn--ghost">Watch our reels ↓</a>
+      </div>
+
+      <div class="hero__stats reveal">
+        <div class="stat">
+          <span class="stat__num" data-count="100">0</span>
+          <span class="stat__label">reels published</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="10">0</span>
+          <span class="stat__label">brands scaled</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="17.9">0</span>
+          <span class="stat__label">trillion views</span>
+        </div>
+      </div>
+
+      <div class="hero__orbs" aria-hidden="true">
+        <i class="orb orb--a"></i>
+        <i class="orb orb--b"></i>
+        <i class="orb orb--c"></i>
+      </div>
+
+      <svg class="hero__wave" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0,60 C240,120 480,0 720,40 C960,80 1200,120 1440,60 L1440,120 L0,120 Z" />
+      </svg>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Reels&nbsp;✦&nbsp;Short Form&nbsp;✦&nbsp;Brand Strategy&nbsp;✦&nbsp;UGC&nbsp;✦&nbsp;Paid Ads&nbsp;✦&nbsp;Content Systems&nbsp;✦&nbsp;Reels&nbsp;✦&nbsp;Short Form&nbsp;✦&nbsp;Brand Strategy&nbsp;✦&nbsp;UGC&nbsp;✦&nbsp;Paid Ads&nbsp;✦&nbsp;Content Systems&nbsp;✦&nbsp;Reels&nbsp;✦&nbsp;Short Form&nbsp;✦&nbsp;Brand Strategy&nbsp;✦&nbsp;UGC&nbsp;✦&nbsp;Paid Ads&nbsp;✦&nbsp;Content Systems&nbsp;✦&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ============ REELS / WORK ============ -->
+    <section class="section" id="reels">
+      <div class="section__head reveal">
+        <p class="section__tag">Reels — our playground</p>
+        <h2 class="section__title">Work that <em>hooks</em> in seconds</h2>
+        <p class="section__sub">Every reel is engineered for the algorithm — an irresistible hook, a story worth
+          finishing, and a CTA that converts. Drag to explore.</p>
+      </div>
+
+      <div class="reels" id="reelsTrack">
+        <article class="reel">
+          <div class="reel__media" data-tint="mint">
+            <span class="reel__tag">UGC</span>
+            <button class="reel__play" aria-label="Play reel">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <video data-src="videos/reel-1.mp4" preload="metadata" playsinline disablepictureinpicture></video>
+          </div>
+          <div class="reel__meta">
+            <h3>@thecleanfreaks · 3.2M</h3>
+            <p>"My home office did NOT look like this before POV"</p>
+            <span class="reel__foot">❤ 128k &nbsp;·&nbsp; 💬 2.1k</span>
+          </div>
+        </article>
+
+        <article class="reel">
+          <div class="reel__media" data-tint="rose">
+            <span class="reel__tag">EDITS</span>
+            <button class="reel__play" aria-label="Play reel">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <video data-src="videos/reel-1.mp4" preload="metadata" playsinline disablepictureinpicture></video>
+          </div>
+          <div class="reel__meta">
+            <h3>@bottled.aura · 8.9M</h3>
+            <p>"We don't sell perfume. We sell a feeling you can't forget."</p>
+            <span class="reel__foot">❤ 482k &nbsp;·&nbsp; 💬 6.3k</span>
+          </div>
+        </article>
+
+        <article class="reel">
+          <div class="reel__media" data-tint="peach">
+            <span class="reel__tag">HOOKS</span>
+            <button class="reel__play" aria-label="Play reel">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <video data-src="videos/reel-1.mp4" preload="metadata" playsinline disablepictureinpicture></video>
+          </div>
+          <div class="reel__meta">
+            <h3>@fitfuel.co · 1.4M</h3>
+            <p>"Stop paying for protein you can't even taste."</p>
+            <span class="reel__foot">❤ 96k &nbsp;·&nbsp; 💬 1.8k</span>
+          </div>
+        </article>
+
+        <article class="reel">
+          <div class="reel__media" data-tint="lav">
+            <span class="reel__tag">BRAND</span>
+            <button class="reel__play" aria-label="Play reel">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <video data-src="videos/reel-1.mp4" preload="metadata" playsinline disablepictureinpicture></video>
+          </div>
+          <div class="reel__meta">
+            <h3>@linen.studio · 5.6M</h3>
+            <p>"Design isn't what it looks like. It's how it makes you feel."</p>
+            <span class="reel__foot">❤ 311k &nbsp;·&nbsp; 💬 4.0k</span>
+          </div>
+        </article>
+
+        <article class="reel">
+          <div class="reel__media" data-tint="sky">
+            <span class="reel__tag">TUTORIAL</span>
+            <button class="reel__play" aria-label="Play reel">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <video data-src="videos/reel-1.mp4" preload="metadata" playsinline disablepictureinpicture></video>
+          </div>
+          <div class="reel__meta">
+            <h3>@saasqueen · 2.1M</h3>
+            <p>"The 30-second SaaS demo that prints demo calls."</p>
+            <span class="reel__foot">❤ 154k &nbsp;·&nbsp; 💬 2.9k</span>
+          </div>
+        </article>
+
+        <article class="reel">
+          <div class="reel__media" data-tint="mint">
+            <span class="reel__tag">CINEMATIC</span>
+            <button class="reel__play" aria-label="Play reel">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+            <video data-src="videos/reel-1.mp4" preload="metadata" playsinline disablepictureinpicture></video>
+          </div>
+          <div class="reel__meta">
+            <h3>@motorealm · 11.0M</h3>
+            <p>"Shot on a phone. Edited like a Super Bowl spot."</p>
+            <span class="reel__foot">❤ 612k &nbsp;·&nbsp; 💬 8.4k</span>
+          </div>
+        </article>
+      </div>
+
+      <div class="reels__controls">
+        <div class="reels__progress" aria-hidden="true">
+          <span id="reelsBar"></span>
+        </div>
+        <div class="reels__arrows">
+          <button class="arrow" id="reelsPrev" aria-label="Scroll reels back">←</button>
+          <button class="arrow" id="reelsNext" aria-label="Scroll reels forward">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section--alt" id="services">
+      <div class="section__head reveal">
+        <p class="section__tag">What we do</p>
+        <h2 class="section__title">Everything a modern brand needs to <em>win the feed</em></h2>
+      </div>
+
+      <div class="grid">
+        <div class="card reveal">
+          <span class="card__num">01</span>
+          <h3>Reels &amp; Short-form</h3>
+          <p>Hooks, scripts, shoots and edits — we produce a steady stream of scroll-stopping vertical content
+            built for the algorithm.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card__num">02</span>
+          <h3>Brand Strategy</h3>
+          <p>Positioning, voice and creative strategy so every piece of content hits the same unmistakable note
+            of you.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card__num">03</span>
+          <h3>Paid Growth</h3>
+          <p>We boost what's already working with disciplined ad spend and creative testing that scales what
+            actually converts.</p>
+        </div>
+        <div class="card reveal">
+          <span class="card__num">04</span>
+          <h3>Influencer &amp; UGC</h3>
+          <p>Native-feeling creator partnerships that give your brand the face and voice real people trust.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="about">
+      <div class="section__head reveal">
+        <p class="section__tag">How we work</p>
+        <h2 class="section__title">Simple process, <em>serious output</em></h2>
+      </div>
+
+      <ol class="steps">
+        <li class="step reveal">
+          <span class="step__n">1</span>
+          <h3>Discover</h3>
+          <p>We audit your brand, your market and your best-performing content to find your unfair advantage.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__n">2</span>
+          <h3>Create</h3>
+          <p>A 30-day content calendar of reels, edits and copy — each one validated against real performance data.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__n">3</span>
+          <h3>Amplify</h3>
+          <p>Winners get pushed with paid. Losers get killed fast. Budget follows proof, not hope.</p>
+        </li>
+        <li class="step reveal">
+          <span class="step__n">4</span>
+          <h3>Repeat</h3>
+          <p>We compound momentum monthly, turning attention into an asset your brand owns.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section section--alt">
+      <div class="section__head reveal">
+        <p class="section__tag">Client words</p>
+        <h2 class="section__title">Brands that <em>swear by us</em></h2>
+      </div>
+
+      <div class="quotes">
+        <figure class="quote reveal">
+          <blockquote>"Our reels went from 4k views to 1.2M average. Revenue is up 300%. _ever.visuals just
+            gets it."</blockquote>
+          <figcaption>— Anaya, Founder · <span>@cleanfreaks</span></figcaption>
+        </figure>
+        <figure class="quote quote--push reveal">
+          <blockquote>"The only agency that thinks like a creator first and a marketer second. We doubled down
+            and never looked back."</blockquote>
+          <figcaption>— Rohan, CMO · <span>@saasqueen</span></figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote>"Content finally feels like us — the product sold itself inside a 20-second reel."</blockquote>
+          <figcaption>— Meera, Owner · <span>@motorealm</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="contact">
+      <h2 class="cta__title reveal">Let's make your brand impossible to <em>scroll past.</em></h2>
+      <p class="cta__sub reveal">Book a free 30-minute strategy call. We'll show you exactly where your content is
+        losing attention — and how we'd fix it.</p>
+      <a href="mailto:hello@ever.visuals" class="btn btn--dark reveal">hello@ever.visuals</a>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="#top" class="nav__logo" aria-label="_ever.visuals — home">_ever<span>.visuals</span></a>
+      <p>Marketing that moves. Crafted for feeds that don't forgive.</p>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 _ever.visuals</span>
+      <div class="footer__socials">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="TikTok">TikTok</a>
+        <a href="#" aria-label="YouTube">YouTube</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
